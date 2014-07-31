@@ -8,11 +8,11 @@ namespace PrimeiroProjeto
 {
     class Exercicio7
     {
-        static void Main()
+        static void Main7()
         {
             int valor1 = 0;
             int valor2 = 1;
-            for (int cont = 0; cont <= 50; cont++)
+            for (int cont = 0; cont <= 30; cont++)
             {
                 int resultado = valor1 + valor2;
                 Console.WriteLine(resultado);

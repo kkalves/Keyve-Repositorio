@@ -8,7 +8,7 @@ namespace PrimeiroProjeto
 {
     class Exercicio8
     {
-        static void Main8()
+        static void Main()
         {
             int opc = 1;
 

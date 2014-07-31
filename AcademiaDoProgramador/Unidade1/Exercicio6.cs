@@ -8,7 +8,7 @@ namespace PrimeiroProjeto
 {
     class Exercicio6
     {
-        static void Main()
+        static void Main6()
         {
             for (int repeticao = 1; repeticao <= 10; repeticao++)
             {

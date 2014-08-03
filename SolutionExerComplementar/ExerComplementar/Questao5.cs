@@ -8,5 +8,9 @@ namespace ExerComplementar
 {
     class Questao5
     {
+        static void Main()
+        {
+
+        }
     }
 }

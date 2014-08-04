@@ -8,12 +8,11 @@ namespace ExerComplementar
 {
     class Questao2
     {
-        static void Main2()
+        static void Main(string[] args)
         {
-            //precisa terminar
             int horasMensal = 0;
             int horasSemanal = 40;
-            double salarioHora = 1.5;
+            double salarioHora = 42.57;
             double salarioTotal = 0.0;
             int horasExtras = 0;
 

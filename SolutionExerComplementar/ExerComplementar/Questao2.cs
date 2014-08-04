@@ -10,23 +10,24 @@ namespace ExerComplementar
     {
         static void Main(string[] args)
         {
-            int horasMensal = 0;
-            int horasSemanal = 40;
-            double salarioHora = 42.57;
+            Random horas = new Random();
+            int horasMensal = horas.Next(0,200);
+            double salarioHora = 3.20;
             double salarioTotal = 0.0;
             int horasExtras = 0;
 
-            if (true)
+            if (horasMensal <= 160)
 	        {
-                //caso não exista hora extra
                 salarioTotal = horasMensal * salarioHora;
 	        }
             else
             {
-                //caso o funcionario tenha realizado hora extra
-                salarioTotal = salarioHora + (horasExtras * (salarioHora + (salarioHora * 0.5)));
+                horasExtras = horasMensal - 160;
+                salarioTotal = (salarioHora * 160) + (horasExtras * (salarioHora + (salarioHora * 0.5)));
             }
-            Console.WriteLine("Salário total: ", salarioTotal);
+            Console.WriteLine("HORAS TRABALHADAS NO MÊS: " + horasMensal);
+            Console.WriteLine("SALARIO HORA: " + salarioHora);
+            Console.WriteLine("SALARIO TOTAL: " + salarioTotal);
             Console.ReadKey();
         }
     }

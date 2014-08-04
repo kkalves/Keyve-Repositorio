@@ -26,6 +26,7 @@ namespace ExerComplementar
                 salarioTotal = (salarioHora * 160) + (horasExtras * (salarioHora + (salarioHora * 0.5)));
             }
             Console.WriteLine("HORAS TRABALHADAS NO MÊS: " + horasMensal);
+            Console.WriteLine("HORAS EXTRAS: " + horasExtras);
             Console.WriteLine("SALARIO HORA: " + salarioHora);
             Console.WriteLine("SALARIO TOTAL: " + salarioTotal);
             Console.ReadKey();

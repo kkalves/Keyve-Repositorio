@@ -41,22 +41,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercicio1.cs" />
-    <Compile Include="Exercicio2.cs" />
-    <Compile Include="Exercicio3.cs" />
-    <Compile Include="Exercicio4.cs" />
-    <Compile Include="Exercicio5.cs" />
-    <Compile Include="Exercicio6.cs" />
-    <Compile Include="Exercicio7.cs" />
-    <Compile Include="Exercicio8.cs" />
+    <Compile Include="Exercicios_Fixacao\Exercicio1.cs" />
+    <Compile Include="Exercicios_Fixacao\Exercicio2.cs" />
+    <Compile Include="Exercicios_Fixacao\Exercicio3.cs" />
+    <Compile Include="Exercicios_Fixacao\Exercicio4.cs" />
+    <Compile Include="Exercicios_Fixacao\Exercicio5.cs" />
+    <Compile Include="Exercicios_Fixacao\Exercicio6.cs" />
+    <Compile Include="Exercicios_Fixacao\Exercicio7.cs" />
+    <Compile Include="Exercicios_Fixacao\Exercicio8.cs" />
+    <Compile Include="Exercicios_Complementar\Questao1.cs" />
+    <Compile Include="Exercicios_Complementar\Questao2.cs" />
+    <Compile Include="Exercicios_Complementar\Questao3.cs" />
+    <Compile Include="Exercicios_Complementar\Questao4.cs" />
+    <Compile Include="Exercicios_Complementar\Questao5.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Exercicios Complementar\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

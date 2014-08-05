@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D58B2CBB-D699-4193-A872-3B95292F15C5}</ProjectGuid>
+    <ProjectGuid>{8986C737-2DB9-4E26-A0BC-CADBE32510E0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ExerComplementar</RootNamespace>
-    <AssemblyName>ExerComplementar</AssemblyName>
+    <RootNamespace>Unidade2</RootNamespace>
+    <AssemblyName>Unidade2</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,12 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Questao1.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Agencia.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Aluno.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\CartaoDeCredito.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Cliente.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Conta.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Funcionario.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\TesteAgencia.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\TesteAluno.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\TesteCartaoDeCredito.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\TesteCliente.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\TesteConta.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\TesteEnsino.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\TesteFuncionario.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\TesteTurma.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Turma.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Questao2.cs" />
-    <Compile Include="Questao3.cs" />
-    <Compile Include="Questao4.cs" />
-    <Compile Include="Questao5.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -41,26 +41,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Agencia.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Aluno.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\CartaoDeCredito.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Cliente.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Conta.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Funcionario.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\TesteAgencia.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\TesteAluno.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\TesteCartaoDeCredito.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\TesteCliente.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\TesteConta.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\TesteEnsino.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\TesteFuncionario.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\TesteTurma.cs" />
-    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Turma.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\Agencia.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Ensino\Aluno.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\CartaoDeCredito.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\Cliente.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\Conta.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Ensino\Funcionario.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\TesteAgencia.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Ensino\TesteAluno.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\TesteCartaoDeCredito.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\TesteCliente.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\TesteConta.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Ensino\TesteEnsino.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Ensino\TesteFuncionario.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Ensino\TesteTurma.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Ensino\Turma.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

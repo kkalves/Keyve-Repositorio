@@ -8,7 +8,7 @@ namespace Unidade2.Orientacao_a_Objetos
 {
     class TesteEnsino
     {
-        static void Main()
+        static void Main_()
         {
             Turma turma = new Turma();
             turma.periodo = "Vespertino";

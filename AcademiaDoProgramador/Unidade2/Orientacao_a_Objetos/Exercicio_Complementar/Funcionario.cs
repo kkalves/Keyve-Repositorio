@@ -10,6 +10,23 @@ namespace Unidade2.Orientacao_a_Objetos
     {
         public string nome;
         public string cargo;
+        public double salario;
+
+        public void AumentarSalario(double valor)
+        {
+            salario += valor;
+
+        }
+
+        public string ConsultarDadosFuncionarios()
+        {
+            string dadosFuncionario = "";
+            dadosFuncionario += "========== DADOS FUNCIONÁRIO =========="
+                                + "\n" + "Nome: " + nome
+                                + "\n" + "Cargo: " + cargo
+                                + "\n" + "Salário: " + salario;
+            return dadosFuncionario;
+        }
 
     }
 }

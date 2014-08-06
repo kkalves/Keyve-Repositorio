@@ -8,7 +8,7 @@ namespace Unidade2.Orientacao_a_Objetos
 {
     class TesteFuncionario
     {
-        static void Main()
+        static void Main1()
         {
             Funcionario f1 = new Funcionario();
             f1.nome = "Kalves Oliveira";

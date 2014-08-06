@@ -47,6 +47,7 @@
     <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\Cliente.cs" />
     <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\Conta.cs" />
     <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Ensino\Funcionario.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\Gerente.cs" />
     <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\TesteAgencia.cs" />
     <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Ensino\TesteAluno.cs" />
     <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\TesteCartaoDeCredito.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Ensino\TesteFuncionario.cs" />
     <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Ensino\TesteTurma.cs" />
     <Compile Include="Orientacao_a_Objetos\Exercicio_Complementar\Ensino\Turma.cs" />
+    <Compile Include="Orientacao_a_Objetos\Exercicio_Fixacao\Banco\TesteGerente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
